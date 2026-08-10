@@ -1,0 +1,35 @@
+.donate-intro {
+  max-width: 640px;
+  margin-bottom: var(--space-5);
+}
+
+.donate-card {
+  max-width: 480px;
+  display: grid;
+  gap: var(--space-4);
+}
+
+.donate-meter__track {
+  height: 14px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-primary) 18%, var(--surface-page));
+  overflow: hidden;
+}
+
+.donate-meter__fill {
+  height: 100%;
+  background: var(--accent-primary);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.donate-meter__caption {
+  margin: var(--space-2) 0 0;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.donate-card button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

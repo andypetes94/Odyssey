@@ -1,0 +1,23 @@
+.tracker-intro {
+  max-width: 640px;
+  margin-bottom: var(--space-4);
+}
+
+.tracker-embed {
+  width: 100%;
+  height: 640px;
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-lg);
+}
+
+.tracker-embed--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--surface-card);
+}
+
+.tracker-embed--placeholder p {
+  max-width: 360px;
+}

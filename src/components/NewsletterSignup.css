@@ -1,0 +1,29 @@
+.newsletter {
+  min-width: 260px;
+}
+
+.newsletter__label {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-2);
+}
+
+.newsletter__form {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.newsletter__form input {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  color: var(--text-primary);
+}
+
+.newsletter__success {
+  color: var(--success-text);
+  font-weight: 600;
+  margin: 0;
+}

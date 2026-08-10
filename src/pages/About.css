@@ -1,0 +1,15 @@
+.about-intro {
+  max-width: 640px;
+}
+
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-4);
+}
+
+.friend-card__home {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: var(--space-2);
+}

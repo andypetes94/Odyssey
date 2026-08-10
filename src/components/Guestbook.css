@@ -1,0 +1,50 @@
+.guestbook {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.guestbook__form {
+  display: grid;
+  gap: var(--space-2);
+  max-width: 480px;
+}
+
+.guestbook__form input,
+.guestbook__form textarea {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  color: var(--text-primary);
+  resize: vertical;
+}
+
+.guestbook__form button {
+  justify-self: start;
+}
+
+.guestbook__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.guestbook__entry {
+  background: var(--surface-card);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+
+.guestbook__message {
+  margin: 0 0 var(--space-1);
+  color: var(--text-primary);
+}
+
+.guestbook__name {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
